@@ -1,0 +1,68 @@
+body {
+    margin-top: 100px;
+    padding: 30px;
+    background: #ECFDF5;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #2B283A;
+    margin: 0;
+}
+
+p {
+    color: #6B7280;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    margin-bottom: 35px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 191px;
+    height: 42px;
+
+}
+
+span {
+    color: #10B981;
+}
+.password {
+    color: #5DEF92;
+    margin-top: 35px;
+    padding: 18px 15px 0px 15px;
+    background: #273549;
+    text-align: center;
+    border-radius: 6px;
+    width: 200px; /*why does the whole element keep changing width depending on the content? because it's not fully shown, not shown to its 200px */
+    height: 35px;
+    font-size: 16px;
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #D5D4D8;
+    margin-top: 0;
+    width: 550px;
+}
+
+#password-one-el {
+    margin-right: 24px;
+}
